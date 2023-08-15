@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://cdn.glitch.global/0c5a3312-2a75-4dec-a099-e54fc2cb7509/favicon-32x32.png?v=1683634028043">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Age Calculator App</title>
+</head>
+<body>
+  
+  <!-- This webpage has been made on 9 of may 2023. 
+  This web page is calculated using today's data  -->
+
+  <div class="main"> 
+    <!-- data input -->
+    <div class="data-div">
+      <div class="day">
+        <h2>DAY</h2>
+        <input type="number" class="styles-for-input-box" id="day" placeholder="DD">
+      </div>
+      <div class="month">
+        <h2>MONTH</h2>
+        <input type="number" class="styles-for-input-box" id="month" placeholder="MM">
+      </div>
+      <div class="year">
+        <h2>YEAR</h2>
+        <input type="number" class="styles-for-input-box" id="year" placeholder="YYYY">
+      </div>
+    </div>
+
+    <!-- divisor line between data and answer -->
+    <div class="divisor-div"></div>
+
+    <!-- calculate button -->
+    <button class="calculate-btn">
+      <img src="https://cdn.glitch.global/0c5a3312-2a75-4dec-a099-e54fc2cb7509/icon-arrow.svg?v=1683634031296" alt="arrow-icon">
+    </button>
+
+    <!-- answer div -->
+    <div class="answer-div">
+      <div class="results" id="result">
+        <h1><span id="yy">--</span> years</h1>
+        <h1><span id="mm">--</span> months</h1>
+        <h1><span id="dd">--</span> days</h1>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

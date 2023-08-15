@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7f53ac;
+    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 700px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    border-bottom-right-radius: 250px;
+}
+
+.data-div {
+    margin-top: 70px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* below code remove arrows from input */
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    color: grey;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.styles-for-input-box {
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 150px;
+    height: 70px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.divisor-div {
+    width: 540px;
+    height: 1px;
+    background-color: grey;
+    margin-top: 70px;
+    margin-left: 44px;
+}
+
+.calculate-btn {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: none;
+    background-color: #8e71df;
+    position: relative;
+    left: 560px;
+    top: -40px;
+}
+
+.calculate-btn:hover {
+    background-color: black;
+    transition-duration: 0.3s;
+}
+
+.answer-div {
+    margin-top: -80px;
+    margin-left: 44px;
+}
+
+h1 {
+    color: black;
+    font-size: 75px;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+}
+
+span {
+    color: purple;
+}
+
+
+
